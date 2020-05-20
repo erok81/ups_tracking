@@ -16,7 +16,6 @@ with open('tracking.pkl', 'rb') as f:
 with open('config.pkl', 'rb') as f:
     config = pickle.load(f)
 
-# password = '2003Yamaha'
 license_number = config['license_number']
 user_id = config['user_id']
 password = config['password']
